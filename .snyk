@@ -1,0 +1,23 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - browser-sync > localtunnel > debug:
+        patched: '2018-08-16T23:22:11.188Z'
+  'npm:hoek:20180212':
+    - istanbul-coveralls > coveralls > request > hawk > hoek:
+        patched: '2018-08-16T23:22:11.188Z'
+    - istanbul-coveralls > coveralls > request > hawk > boom > hoek:
+        patched: '2018-08-16T23:22:11.188Z'
+    - istanbul-coveralls > coveralls > request > hawk > sntp > hoek:
+        patched: '2018-08-16T23:22:11.188Z'
+    - istanbul-coveralls > coveralls > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-08-16T23:22:11.188Z'
+  'npm:lodash:20180130':
+    - browser-sync > easy-extender > lodash:
+        patched: '2018-08-16T23:22:11.188Z'
+  'npm:tunnel-agent:20170305':
+    - istanbul-coveralls > coveralls > request > tunnel-agent:
+        patched: '2018-08-16T23:22:11.188Z'
